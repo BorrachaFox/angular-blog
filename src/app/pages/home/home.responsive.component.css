@@ -1,0 +1,8 @@
+@media screen and (max-width: 768px) {
+  .container__articles {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

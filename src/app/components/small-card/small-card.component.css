@@ -11,7 +11,6 @@
 
 .small-card__photo > img {
   width: 200px;
-  min-width: 200px;
   object-fit: cover;
 }
 
@@ -23,4 +22,8 @@
 
 .small-card__bottom {
   margin-top: 10px;
+}
+
+.small-card__bottom hr {
+  border-color: rgba(255, 255, 255, 0.150);
 }

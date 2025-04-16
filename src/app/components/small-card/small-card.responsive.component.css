@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px) {
+  .container__small-card {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0 48px;
+  }
+
+  .small-card__photo > img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .container__small-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+

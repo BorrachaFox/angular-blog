@@ -1,10 +1,11 @@
 import { Component, Input } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-big-card',
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './big-card.component.html',
-  styleUrl: './big-card.component.css',
+  styleUrls: ['./big-card.component.css', './big-card.responsive.component.css'],
 })
 export class BigCardComponent {
   @Input()
@@ -12,5 +13,8 @@ export class BigCardComponent {
   @Input()
   cardTitle: string = 'O QUE É O PROTOCOLO MCP ?';
   @Input()
-  cardDescription: string = 'Protocolo facilita a integração da IA com sistemas externos.';
+  cardDescription: string =
+    'Protocolo facilita a integração da IA com sistemas externos.';
+  @Input()
+  Id: string = '0';
 }
