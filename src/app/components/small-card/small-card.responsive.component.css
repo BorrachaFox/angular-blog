@@ -1,4 +1,10 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
+  .small-card__title > h1 {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 800px) {
   .container__small-card {
     width: 100%;
     margin-bottom: 20px;

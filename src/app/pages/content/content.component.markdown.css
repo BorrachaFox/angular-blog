@@ -1,0 +1,85 @@
+/* Estilo base do container */
+.content__description__text {
+    font-family: 'Inter', 'Roboto', 'Arial', sans-serif;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #e0e0e0;
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Títulos */
+  .content__description__text h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    border-bottom: 2px solid #4f46e5; /* linha azul bonita */
+    padding-bottom: 0.5rem;
+  }
+  
+  .content__description__text h2 {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #cbd5e1;
+  }
+  
+  .content__description__text h3 {
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.8rem;
+    color: #cbd5e1;
+  }
+  
+  /* Parágrafos */
+  .content__description__text p {
+    margin-bottom: 1.2rem;
+  }
+  
+  /* Listas */
+  .content__description__text ul {
+    list-style: disc inside;
+    padding-left: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .content__description__text li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Negrito */
+  .content__description__text strong {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  /* Links */
+  .content__description__text a {
+    color: #4f46e5; /* Azul bonito */
+    text-decoration: underline;
+  }
+  
+  .content__description__text a:hover {
+    text-decoration: none;
+  }
+  
+  /* Código Inline */
+  .content__description__text code {
+    background: #1f2937;
+    color: #93c5fd;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-family: 'Fira Code', monospace;
+  }
+  
+  /* Bloco de código */
+  .content__description__text pre {
+    background: #1f2937;
+    color: #93c5fd;
+    padding: 1rem;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-family: 'Fira Code', monospace;
+  }
+  

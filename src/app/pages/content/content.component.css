@@ -16,10 +16,15 @@
   min-width: 500px;
   height: 300px;
   object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3)
 }
 
 .content__description {
   margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .content__description > .return__button {
@@ -30,9 +35,11 @@
   display: block;
   background-color: #492fb5;
   padding: 8px 24px;
+  border-radius: 8px;
 }
 
 .content__description > p {
   color: rgb(230, 230, 230);
   margin-top: 20px;
+  font-size: 1.1rem
 }

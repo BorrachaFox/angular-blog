@@ -13,8 +13,8 @@ export class BigCardComponent {
   @Input()
   cardTitle: string = 'O QUE É O PROTOCOLO MCP ?';
   @Input()
-  cardDescription: string =
-    'Protocolo facilita a integração da IA com sistemas externos.';
+  cardDescription: string | undefined =
+    `Clique aqui para saber mais sobre.`;
   @Input()
-  Id: string = '0';
+  Id: number = 0;
 }

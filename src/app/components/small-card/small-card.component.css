@@ -1,5 +1,6 @@
 .container__small-card {
-  width: 700px;
+  width: 100%;
+  max-width: 700px;
   margin-bottom: 20px;
 }
 
@@ -12,12 +13,20 @@
 .small-card__photo > img {
   width: 200px;
   object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3)
 }
 
 .small-card__title {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
+}
+
+.small-card__title > h1 {
+  max-width: 100%;
+  word-break: break-word;
 }
 
 .small-card__bottom {
